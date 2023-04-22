@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
-import Hello from "c/Hello";
-class App extends Component {
+class Hello extends Component {
     render() {
         return (
             <div>
-                <Hello/>
+                Hello I'm Hello
             </div>
         );
     }
 }
 
-export default App;
+export default Hello;
